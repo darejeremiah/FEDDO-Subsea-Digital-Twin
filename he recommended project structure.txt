@@ -1,0 +1,27 @@
+FEDDO-Subsea-Digital-Twin/
+│
+├── app.py
+├── requirements.txt
+├── README.md
+│
+├── models/
+│   ├── corrosion.py
+│   ├── pressure.py
+│   ├── thermal.py
+│   ├── viv.py
+│   ├── fatigue.py
+│   └── ai_prediction.py
+│
+├── visualization/
+│   ├── pipeline_3d.py
+│   ├── seabed.py
+│   └── viv_animation.py
+│
+├── data/
+│   └── simulated_sensor_data.csv
+│
+├── assets/
+│   └── pipeline_model.glb
+│
+└── .streamlit/
+    └── config.toml
